@@ -1,0 +1,65 @@
+includes:
+    - vendor/spaze/phpstan-disallowed-calls/extension.neon
+
+parameters:
+    level: 9
+    paths:
+        - core
+        - student
+    tmpDir: tmp
+    
+    disallowedFunctionCalls:
+        # https://www.php.net/ref.exec
+        - function: 'exec()'
+        - function: 'passthru()'
+        - function: 'proc_open()'
+        - function: 'proc_get_status()'
+        - function: 'proc_nice()'
+        - function: 'proc_close()'
+        - function: 'proc_terminate()'
+        - function: 'shell_exec()'  # also disallows the backtick operator `...`
+        - function: 'system()'
+        - function: 'pcntl_exec()'
+        - function: 'popen()'
+        # other
+        - function: 'checkdnsrr()'
+        - function: 'closelog()'
+        - function: 'define_syslog_variables()'
+        - function: 'dns_check_record()'
+        - function: 'dns_get_mx()'
+        - function: 'dns_get_record()'
+        - function: 'fsockopen()'
+        - function: 'gethostbyaddr()'
+        - function: 'gethostbyname()'
+        - function: 'gethostbynamel()'
+        - function: 'gethostname()'
+        - function: 'getmxrr()'
+        - function: 'getprotobyname()'
+        - function: 'getprotobynumber()'
+        - function: 'getservbyname()'
+        - function: 'getservbyport()'
+        - function: 'header_register_callback()'
+        - function: 'header_remove()'
+        - function: 'header()'
+        - function: 'headers_list()'
+        - function: 'headers_sent()'
+        - function: 'http_response_code()'
+        - function: 'inet_ntop()'
+        - function: 'inet_pton()'
+        - function: 'ip2long()'
+        - function: 'long2ip()'
+        - function: 'openlog()'
+        - function: 'pfsockopen()'
+        - function: 'setcookie()'
+        - function: 'setrawcookie()'
+        - function: 'socket_create()'
+        - function: 'socket_connect()'
+        - function: 'socket_get_status()'
+        - function: 'socket_set_blocking()'
+        - function: 'socket_set_timeout()'
+        - function: 'syslog()'
+        - function: 'mail()'
+        - function: 'curl_exec()'
+        - function: 'curl_multi_exec()'
+        - function: 'parse_ini_file()'
+        - function: 'show_source()'

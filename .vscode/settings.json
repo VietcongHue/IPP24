@@ -1,0 +1,6 @@
+{
+    "files.exclude": {
+        "temp": true,
+        "tmp": true
+    }
+}

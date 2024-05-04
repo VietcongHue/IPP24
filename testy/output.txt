@@ -1,0 +1,1889 @@
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/PUSHFRAME/pushframe.src
+1c1
+< Variable LF@a not found in frame LF
+---
+> 42
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/PUSHFRAME/pushframe.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/PUSHFRAME/pushframe.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/PUSHFRAME/pushfram_fault.src
+got rc | expected rc
+0     |	55
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/PUSHFRAME/pushfram_fault.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/PUSHFRAME/pushfram_fault.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pushs_int.src
+1c1
+< 
+---
+> 42
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pushs_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pushs_int.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pop_nothing.src
+got rc | expected rc
+0     |	56
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pop_nothing.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pop_nothing.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pushs_nil.src
+1d0
+< 
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pushs_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pushs_nil.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pushs_var.src
+1c1
+< 
+---
+> yes
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pushs_var.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pushs_var.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pushs_bool.src
+1c1
+< 
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pushs_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pushs_bool.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pushs_string.src
+1c1
+< 
+---
+> yes
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pushs_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pushs_string.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pop_change.src
+1c1
+< no
+---
+> yes
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pop_change.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STACK/pop_change.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_vars.src
+1c1
+< false
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_vars.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_vars.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_wrong_string_nil.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_symb.src
+1c1
+< false
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_symb.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_symb.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_wrong_string_bool.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_string2.src
+1c1
+< false
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_string2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_string2.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_wrong_bool_int.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_string.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_string.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_wrong_nil_string.src
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_wrong_nil_nil.src
+got rc | expected rc
+0     |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_wrong_nil_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_wrong_nil_nil.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_wrong_bool_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_wrong_int_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_wrong_nil_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_wrong_nil_bool.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_vars2.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_vars2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_vars2.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_int2.src
+1c1
+< false
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_int2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_int2.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_bool2.src
+1c1
+< false
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_bool2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_bool2.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_bool.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_bool.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_wrong_int_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_wrong_string_int.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_int.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_int.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_symb2.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_symb2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_symb2.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_wrong_int_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LT/lt_wrong_bool_nil.src
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/instr_oder_zero.src
+got rc | expected rc
+99    |	32
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/instr_oder_zero.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/instr_oder_zero.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/invalid_tag_name2.src
+got rc | expected rc
+99    |	32
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/invalid_tag_name2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/invalid_tag_name2.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/arg_order.src
+0a1
+> abc
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/arg_order.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/arg_order.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/arg_order.src
+got rc | expected rc
+255   |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/arg_order.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/arg_order.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/invalid_tag_name.src
+got rc | expected rc
+99    |	32
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/invalid_tag_name.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/invalid_tag_name.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/invalid_instr_oder.src
+got rc | expected rc
+255   |	32
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/invalid_instr_oder.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/invalid_instr_oder.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/negative_instr_order.src
+got rc | expected rc
+255   |	32
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/negative_instr_order.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/negative_instr_order.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_program_tag3.src
+got rc | expected rc
+99    |	32
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_program_tag3.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_program_tag3.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/arg_outside_instr.src
+got rc | expected rc
+99    |	32
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/arg_outside_instr.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/arg_outside_instr.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/one.src
+got rc | expected rc
+255   |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/one.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/one.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_program_tag4.src
+got rc | expected rc
+99    |	32
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_program_tag4.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_program_tag4.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_arg5.src
+got rc | expected rc
+255   |	32
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_arg5.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_arg5.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_arg4.src
+got rc | expected rc
+255   |	32
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_arg4.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_arg4.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_program_tag.src
+got rc | expected rc
+99    |	32
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_program_tag.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_program_tag.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_arg3.src
+got rc | expected rc
+99    |	32
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_arg3.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_arg3.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_program_tag2.src
+got rc | expected rc
+99    |	32
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_program_tag2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_program_tag2.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_arg.src
+got rc | expected rc
+255   |	32
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_arg.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_arg.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_arg2.src
+got rc | expected rc
+255   |	32
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_arg2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/bad_arg2.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/arg_spaces.src
+0a1
+> abc
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/arg_spaces.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/arg_spaces.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/arg_spaces.src
+got rc | expected rc
+255   |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/arg_spaces.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/arg_spaces.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/two.src
+got rc | expected rc
+255   |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/two.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/XML/two.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_nil_nil.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_nil_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_nil_nil.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_int_nil.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_int_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_int_nil.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_bool_nil.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_bool_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_bool_nil.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_symb.src
+1c1
+< n
+---
+> n
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_symb.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_symb.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_nil_int.src
+got rc | expected rc
+0     |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_nil_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_nil_int.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_int_int.src
+got rc | expected rc
+0     |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_int_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_int_int.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_nil_string.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_nil_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_nil_string.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_bool_string.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_bool_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_bool_string.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_string_bool.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_string_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_string_bool.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_bool_int.src
+got rc | expected rc
+0     |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_bool_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_bool_int.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar.src
+1c1
+< s
+---
+> s
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_index.src
+got rc | expected rc
+0     |	58
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_index.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_index.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_int_bool.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_int_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_int_bool.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_vars.src
+1c1
+< o
+---
+> o
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_vars.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_vars.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_string_nil.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_string_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_string_nil.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_bool_bool.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_bool_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_bool_bool.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_string_string.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_string_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_string_string.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_nil_bool.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_nil_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_nil_bool.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_int_string.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_int_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GETCHAR/getchar_wrong_int_string.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_wrong_nil_nil.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_bools2.src
+1c1
+< false
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_bools2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_bools2.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_wrong_string_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_wrong_bool_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_wrong_bool_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_wrong_string_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_wrong_int_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_wrong_nil_int.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_bools.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_bools.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_bools.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_wrong_nil_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_wrong_int_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_wrong_nil_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_wrong_int_bool.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_bools3.src
+1c1
+< true
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_bools3.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_bools3.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_wrong_string_bool.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_symb.src
+1c1
+< false
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_symb.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_symb.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_wrong_int_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_wrong_bool_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_wrong_string_string.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_vars.src
+1c1
+< false
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_vars.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/AND/and_vars.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_var.src
+1c1
+< 97
+---
+> 97
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_var.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_var.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_nil_bool.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_nil_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_nil_bool.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_bool_bool.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_bool_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_bool_bool.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_int_nil.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_int_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_int_nil.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_bool_int.src
+got rc | expected rc
+255   |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_bool_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_bool_int.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_bool_string.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_bool_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_bool_string.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_int.src
+1c1
+< 99
+---
+> 99
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_int.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_index.src
+got rc | expected rc
+255   |	58
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_index.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_index.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_string_string.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_string_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_string_string.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_int_int.src
+got rc | expected rc
+255   |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_int_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_int_int.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_bool_nil.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_bool_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_bool_nil.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_string_bool.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_string_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_string_bool.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_int_bool.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_int_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_int_bool.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_string_nil.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_string_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_string_nil.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_nil_int.src
+got rc | expected rc
+255   |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_nil_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_nil_int.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_nil_string.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_nil_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_nil_string.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_int_string.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_int_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_int_string.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_nil_nil.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_nil_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STR2INT/stri2int_wrong_nil_nil.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_wrong_int_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_wrong_int_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_wrong_nil_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_wrong_string_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_wrong_string_nil.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_vars.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_vars.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_vars.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_wrong_int_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_wrong_bool_string.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_symb.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_symb.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_symb.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_bools.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_bools.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_bools.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_wrong_nil_bool.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_bools2.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_bools2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_bools2.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_wrong_string_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_wrong_bool_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_wrong_nil_int.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_bools3.src
+1c1
+< false
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_bools3.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_bools3.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_wrong_nil_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_wrong_string_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_wrong_int_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/OR/or_wrong_bool_int.src
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/LABEL/label_wrong.src
+got rc | expected rc
+255   |	52
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LABEL/label_wrong.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/LABEL/label_wrong.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_symb.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_symb.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_symb.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_wrong_string_nil.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_vars.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_vars.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_vars.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_bool.src
+1c1
+< false
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_bool.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_int.src
+1c1
+< false
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_int.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_wrong_int_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_wrong_string_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_wrong_bool_nil.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_bool2.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_bool2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_bool2.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_string2.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_string2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_string2.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_int2.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_int2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_int2.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_wrong_bool_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_wrong_nil_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_wrong_bool_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_wrong_string_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_wrong_nil_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_wrong_int_nil.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_vars2.src
+1c1
+< false
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_vars2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_vars2.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_wrong_int_bool.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_string.src
+1c1
+< false
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_string.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_wrong_nil_int.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_symb2.src
+1c1
+< false
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_symb2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_symb2.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_wrong_nil_nil.src
+got rc | expected rc
+0     |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_wrong_nil_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/GT/gt_wrong_nil_nil.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_nil_int.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_nil_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_nil_int.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_bool_nil.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_bool_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_bool_nil.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_bool_string.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_bool_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_bool_string.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar.src
+1c1
+< yns
+---
+> yns
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_int_nil.src
+got rc | expected rc
+0     |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_int_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_int_nil.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_int_int.src
+got rc | expected rc
+0     |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_int_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_int_int.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_string_int.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_string_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_string_int.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_bool_int.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_bool_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_bool_int.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_emptystr.src
+got rc | expected rc
+0     |	58
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_emptystr.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_emptystr.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_bool_bool.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_bool_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_bool_bool.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_vars.src
+1c1
+< yen
+---
+> yen
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_vars.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_vars.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_string_bool.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_string_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_string_bool.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_index.src
+got rc | expected rc
+0     |	58
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_index.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_index.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_int_bool.src
+got rc | expected rc
+0     |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_int_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_int_bool.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_nil_string.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_nil_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_nil_string.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_symb.src
+1c1
+< yns
+---
+> yns
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_symb.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_symb.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_string_nil.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_string_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_string_nil.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_string_string.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_string_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_string_string.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_nil_bool.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_nil_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_nil_bool.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_nil_nil.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_nil_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SETCHAR/setchar_wrong_nil_nil.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/DEFVAR/defvar_redef_TF.src
+got rc | expected rc
+0     |	52
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/DEFVAR/defvar_redef_TF.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/DEFVAR/defvar_redef_TF.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/DEFVAR/defvar_redef_GF.src
+got rc | expected rc
+0     |	52
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/DEFVAR/defvar_redef_GF.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/DEFVAR/defvar_redef_GF.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/DEFVAR/defvar_redef_LF.src
+got rc | expected rc
+0     |	52
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/DEFVAR/defvar_redef_LF.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/DEFVAR/defvar_redef_LF.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/DEFVAR/defvar.src
+1,3c1
+< Variable TF@a not found in frame TF
+< Variable LF@a not found in frame LF
+< 420
+---
+> 6942420
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/DEFVAR/defvar.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/DEFVAR/defvar.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/TYPE/type_string.src
+1c1
+< string
+---
+> string
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/TYPE/type_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/TYPE/type_string.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/TYPE/type_var.src
+1c1
+< string
+---
+> string
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/TYPE/type_var.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/TYPE/type_var.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/TYPE/type_nil.src
+1c1
+< 
+---
+> nil
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/TYPE/type_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/TYPE/type_nil.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/TYPE/type_bool.src
+1c1
+< bool
+---
+> bool
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/TYPE/type_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/TYPE/type_bool.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/TYPE/type_int.src
+1c1
+< int
+---
+> int
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/TYPE/type_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/TYPE/type_int.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/TYPE/type_uninit.src
+1d0
+< 
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/TYPE/type_uninit.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/TYPE/type_uninit.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_wrong_int_bool.src
+got rc | expected rc
+255   |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_wrong_int_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_wrong_int_bool.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_nonexisting.src
+got rc | expected rc
+0     |	52
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_nonexisting.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_nonexisting.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_wrong_bool_int.src
+got rc | expected rc
+255   |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_wrong_bool_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_wrong_bool_int.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_wrong_string_int.src
+got rc | expected rc
+255   |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_wrong_string_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_wrong_string_int.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_wrong_string_bool.src
+got rc | expected rc
+255   |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_wrong_string_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_wrong_string_bool.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq2.src
+0a1
+> 69
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq2.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq2.src
+got rc | expected rc
+255   |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq2.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq.src
+1d0
+< 42
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq.src
+got rc | expected rc
+255   |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_wrong_int_string.src
+got rc | expected rc
+255   |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_wrong_int_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_wrong_int_string.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_wrong_bool_string.src
+got rc | expected rc
+255   |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_wrong_bool_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFNEQ/jumpifneq_wrong_bool_string.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CALL/call_forward.src
+0a1
+> 42
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CALL/call_forward.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CALL/call_forward.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CALL/call_forward.src
+got rc | expected rc
+255   |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CALL/call_forward.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CALL/call_forward.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CALL/call_nonexisting.src
+got rc | expected rc
+0     |	52
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CALL/call_nonexisting.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CALL/call_nonexisting.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CALL/call_backwards.src
+0a1
+> 6942
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CALL/call_backwards.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CALL/call_backwards.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CALL/call_backwards.src
+got rc | expected rc
+255   |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CALL/call_backwards.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CALL/call_backwards.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/RETURN/return_backwards.src
+1c1
+< 42
+---
+> 4269
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/RETURN/return_backwards.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/RETURN/return_backwards.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/RETURN/return_backwards.src
+got rc | expected rc
+57    |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/RETURN/return_backwards.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/RETURN/return_backwards.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/RETURN/return_forward.src
+0a1
+> 42
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/RETURN/return_forward.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/RETURN/return_forward.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/RETURN/return_forward.src
+got rc | expected rc
+255   |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/RETURN/return_forward.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/RETURN/return_forward.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/RETURN/return_nonexisting.src
+got rc | expected rc
+0     |	56
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/RETURN/return_nonexisting.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/RETURN/return_nonexisting.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_wrong_int_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_wrong_nil_string.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_symb.src
+1c1
+< 0
+---
+> 0
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_symb.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_symb.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_wrong_int_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_wrong_string_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_wrong_bool_string.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_vars.src
+1c1
+< 0
+---
+> 0
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_vars.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_vars.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_wrong_bool_nil.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_ints.src
+1c1
+< 0
+---
+> 0
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_ints.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_ints.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_wrong_string_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_wrong_nil_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_wrong_nil_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_wrong_bool_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_wrong_int_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_wrong_bool_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_wrong_string_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_wrong_string_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/SUB/sub_wrong_nil_int.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_string_nil.src
+1d0
+< 
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_string_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_string_nil.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_wrong_int.src
+got rc | expected rc
+0     |	32
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_wrong_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_wrong_int.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_bool_nil.src
+1d0
+< 
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_bool_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_bool_nil.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_bool.src
+1c1
+< 
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_bool.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_int.src
+1c1
+< 
+---
+> 42
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_int.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_int_nil.src
+1d0
+< 
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_int_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_int_nil.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_wrong_string.src
+got rc | expected rc
+0     |	32
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_wrong_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_wrong_string.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_string.src
+1c1
+< 
+---
+> yes
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_string.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_wrong_nil.src
+got rc | expected rc
+0     |	32
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_wrong_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_wrong_nil.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_wrong_bool.src
+got rc | expected rc
+0     |	32
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_wrong_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/READ/read_wrong_bool.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STRLEN/strlen_string.src
+1c1
+< 3
+---
+> 3
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STRLEN/strlen_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STRLEN/strlen_string.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STRLEN/strlen_wrong_int.src
+got rc | expected rc
+0     |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STRLEN/strlen_wrong_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STRLEN/strlen_wrong_int.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STRLEN/strlen_var.src
+1c1
+< 2
+---
+> 2
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STRLEN/strlen_var.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STRLEN/strlen_var.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STRLEN/strlen_wrong_bool.src
+got rc | expected rc
+0     |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STRLEN/strlen_wrong_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STRLEN/strlen_wrong_bool.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/STRLEN/strlen_wrong_nil.src
+got rc | expected rc
+0     |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STRLEN/strlen_wrong_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/STRLEN/strlen_wrong_nil.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ultra_test.src
+1,8c1,124
+< Aritmetika\010
+< Logika\032-\032int\010
+< Logika\032-\032string\010
+< Logika\032-\032bool\010
+< Loops\010
+< Zadej\032počet\032iterací:\032
+< 
+< \010
+---
+> Aritmetika
+> Test [1]
+> 	Očekávaná hodnota: 15
+> 	Reálná hodnota: 15
+> 	OK!
+> Test [2]
+> 	Očekávaná hodnota: 5
+> 	Reálná hodnota: 5
+> 	OK!
+> Test [3]
+> 	Očekávaná hodnota: 50
+> 	Reálná hodnota: 50
+> 	OK!
+> Test [4]
+> 	Očekávaná hodnota: 2
+> 	Reálná hodnota: 2
+> 	OK!
+> Logika - int
+> Test [5]
+> 	Očekávaná hodnota: false
+> 	Reálná hodnota: false
+> 	OK!
+> Test [6]
+> 	Očekávaná hodnota: true
+> 	Reálná hodnota: true
+> 	OK!
+> Test [7]
+> 	Očekávaná hodnota: false
+> 	Reálná hodnota: false
+> 	OK!
+> Test [8]
+> 	Očekávaná hodnota: true
+> 	Reálná hodnota: true
+> 	OK!
+> Logika - string
+> Test [9]
+> 	Očekávaná hodnota: false
+> 	Reálná hodnota: false
+> 	OK!
+> Test [10]
+> 	Očekávaná hodnota: true
+> 	Reálná hodnota: true
+> 	OK!
+> Test [11]
+> 	Očekávaná hodnota: false
+> 	Reálná hodnota: false
+> 	OK!
+> Test [12]
+> 	Očekávaná hodnota: true
+> 	Reálná hodnota: true
+> 	OK!
+> Logika - bool
+> Test [13]
+> 	Očekávaná hodnota: false
+> 	Reálná hodnota: false
+> 	OK!
+> Test [14]
+> 	Očekávaná hodnota: true
+> 	Reálná hodnota: true
+> 	OK!
+> Test [15]
+> 	Očekávaná hodnota: false
+> 	Reálná hodnota: false
+> 	OK!
+> Test [16]
+> 	Očekávaná hodnota: true
+> 	Reálná hodnota: true
+> 	OK!
+> Test [17]
+> 	Očekávaná hodnota: false
+> 	Reálná hodnota: false
+> 	OK!
+> Test [18]
+> 	Očekávaná hodnota: true
+> 	Reálná hodnota: true
+> 	OK!
+> Test [19]
+> 	Očekávaná hodnota: true
+> 	Reálná hodnota: true
+> 	OK!
+> Loops
+> Zadej počet iterací: 69
+> Test [20]
+> 	Očekávaná hodnota: 69
+> 	Reálná hodnota: 69
+> 	OK!
+> String, typy
+> Test [21]
+> 	Očekávaná hodnota: 4
+> 	Reálná hodnota: 4
+> 	OK!
+> Test [22]
+> 	Očekávaná hodnota: d
+> 	Reálná hodnota: d
+> 	OK!
+> Test [23]
+> 	Očekávaná hodnota: aaoa
+> 	Reálná hodnota: aaoa
+> 	OK!
+> Test [24]
+> 	Očekávaná hodnota: string
+> 	Reálná hodnota: string
+> 	OK!
+> Test [25]
+> 	Očekávaná hodnota: int
+> 	Reálná hodnota: int
+> 	OK!
+> Test [26]
+> 	Očekávaná hodnota: 
+> 	Reálná hodnota: 
+> 	OK!
+> Test [27]
+> 	Očekávaná hodnota: nil
+> 	Reálná hodnota: nil
+> 	OK!
+> Stack
+> Test [28]
+> 	Očekávaná hodnota: second_in
+> 	Reálná hodnota: second_in
+> 	OK!
+> Test [29]
+> 	Očekávaná hodnota: first_in
+> 	Reálná hodnota: first_in
+> 	OK!
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/ultra_test.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/ultra_test.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ultra_test.src
+got rc | expected rc
+255   |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/ultra_test.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/ultra_test.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/NOT/now_wrong_int.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/NOT/not_bools.src
+1c1
+< false
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/NOT/not_bools.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/NOT/not_bools.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/NOT/not_vars.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/NOT/not_vars.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/NOT/not_vars.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/NOT/not_bools2.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/NOT/not_bools2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/NOT/not_bools2.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/NOT/not_wrong_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/NOT/now_wrong_nil.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_symb.src
+1c1
+< 84
+---
+> 84
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_symb.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_symb.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_wrong_string_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_wrong_bool_string.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_vars.src
+1c1
+< 84
+---
+> 84
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_vars.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_vars.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_wrong_nil_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_wrong_string_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_wrong_int_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_wrong_bool_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_wrong_nil_bool.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_ints.src
+1c1
+< 84
+---
+> 84
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_ints.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_ints.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_wrong_bool_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_wrong_string_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_wrong_bool_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_wrong_int_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_wrong_int_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_wrong_nil_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_wrong_nil_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/ADD/add_wrong_string_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_wrong_int_bool.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_int.src
+0a1
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_int.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_int.src
+got rc | expected rc
+53    |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_int.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_nil.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_nil.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_int.src
+1c1
+< false
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_int.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_wrong_string_bool.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_string.src
+1c1
+< false
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_string.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_wrong_bool_string.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_symb.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_symb.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_symb.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_wrong_bool_int.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_vars.src
+1c1
+< false
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_vars.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_vars.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_string2.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_string2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_string2.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_wrong_string_int.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_string.src
+0a1
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_string.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_string.src
+got rc | expected rc
+53    |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_string.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_bool.src
+0a1
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_bool.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_bool.src
+got rc | expected rc
+53    |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_nil_bool.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_bool.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_bool.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_bool2.src
+1c1
+< false
+---
+> false
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_bool2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_bool2.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EQ/eq_wrong_int_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_wrong_string_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_wrong_bool_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_wrong_int_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_wrong_int_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_wrong_nil_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_wrong_nil_int.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_symb.src
+1c1
+< 1764
+---
+> 1764
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_symb.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_symb.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_wrong_string_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_wrong_int_string.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_vars.src
+1c1
+< 1764
+---
+> 1764
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_vars.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_vars.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_wrong_string_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_wrong_string_bool.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_ints.src
+1c1
+< 1764
+---
+> 1764
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_ints.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_ints.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_wrong_bool_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_wrong_bool_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_wrong_bool_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_wrong_nil_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MUL/mul_wrong_nil_bool.src
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMP/jump_nonexisting.src
+got rc | expected rc
+0     |	52
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMP/jump_nonexisting.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMP/jump_nonexisting.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMP/jump_forward.src
+0a1
+> 42
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMP/jump_forward.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMP/jump_forward.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMP/jump_forward.src
+got rc | expected rc
+255   |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMP/jump_forward.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMP/jump_forward.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMP/jump_backwards.src
+0a1
+> 6942
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMP/jump_backwards.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMP/jump_backwards.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMP/jump_backwards.src
+got rc | expected rc
+255   |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMP/jump_backwards.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMP/jump_backwards.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MOVE/move.src
+1c1
+< 42
+---
+> 42
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/MOVE/move.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/MOVE/move.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/MOVE/move_var.src
+1c1
+< 42
+---
+> 42
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/MOVE/move_var.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/MOVE/move_var.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_wrong_bool_string.src
+got rc | expected rc
+255   |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_wrong_bool_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_wrong_bool_string.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_wrong_bool_int.src
+got rc | expected rc
+255   |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_wrong_bool_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_wrong_bool_int.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq2.src
+0a1
+> 6942
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq2.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq2.src
+got rc | expected rc
+255   |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq2.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq2.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_wrong_int_string.src
+got rc | expected rc
+255   |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_wrong_int_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_wrong_int_string.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_nonexisting.src
+got rc | expected rc
+0     |	52
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_nonexisting.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_nonexisting.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_wrong_string_bool.src
+got rc | expected rc
+255   |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_wrong_string_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_wrong_string_bool.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq.src
+1c1
+< 42
+---
+> 42
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq.src
+got rc | expected rc
+255   |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_wrong_int_bool.src
+got rc | expected rc
+255   |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_wrong_int_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_wrong_int_bool.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_wrong_string_int.src
+got rc | expected rc
+255   |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_wrong_string_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/JUMPIFEQ/jumpifeq_wrong_string_int.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/POPFRAME/popframe.src
+1c1
+< Variable TF@a not found in frame TF
+---
+> 42
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/POPFRAME/popframe.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/POPFRAME/popframe.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/POPFRAME/popframe_fault.src
+got rc | expected rc
+0     |	55
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/POPFRAME/popframe_fault.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/POPFRAME/popframe_fault.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_wrong_nil_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_wrong_bool_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_wrong_nil_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_wrong_nil_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_wrong_int_string.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_symb.src
+1c1
+< 1
+---
+> 1
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_symb.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_symb.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_wrong_string_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_wrong_string_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_wrong_int_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_wrong_bool_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_wrong_nil_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_wrong_string_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_wrong_int_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_wrong_bool_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_wrong_string_int.src
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_wrong_zero.src
+got rc | expected rc
+255   |	57
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_wrong_zero.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_wrong_zero.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_ints.src
+1c1
+< 1
+---
+> 1
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_ints.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_ints.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_wrong_bool_int.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_vars.src
+1c1
+< 1
+---
+> 1
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_vars.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/IDIV/idiv_vars.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CREATEFRAME/createframe.src
+1c1
+< Variable TF@a not found in frame TF
+---
+> 42
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CREATEFRAME/createframe.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CREATEFRAME/createframe.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CREATEFRAME/cf_removed_var.src
+got rc | expected rc
+0     |	54
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CREATEFRAME/cf_removed_var.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CREATEFRAME/cf_removed_var.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/1WRITE/write_int.src
+1c1
+< 42
+---
+> 42
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/1WRITE/write_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/1WRITE/write_int.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/1WRITE/write_string_escapeseq.src
+1c1,2
+< AHOJ\032MEZERA\010NEWLINE
+---
+> AHOJ MEZERA
+> NEWLINE
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/1WRITE/write_string_escapeseq.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/1WRITE/write_string_escapeseq.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/1WRITE/write_bool.src
+1c1
+< true
+---
+> true
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/1WRITE/write_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/1WRITE/write_bool.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/1WRITE/write_nil.src
+1d0
+< nil
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/1WRITE/write_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/1WRITE/write_nil.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/1WRITE/write_var.src
+1,4c1
+< 42
+< tu\032mezeraěščřž
+< false
+< nil
+---
+> 42tu mezeraěščřžfalse
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/1WRITE/write_var.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/1WRITE/write_var.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/1WRITE/write_string.src
+1c1
+< +ěščřžýáíé=´ú)ů§.-qwertzuiopasdfghjklyxcvbnm
+---
+> +ěščřžýáíé=´ú)ů§.-qwertzuiopasdfghjklyxcvbnm
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/1WRITE/write_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/1WRITE/write_string.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_wrong_bool_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_wrong_bool_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_wrong_string_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_wrong_nil_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_wrong_bool_bool.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_vars.src
+1c1
+< noyes
+---
+> noyes
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_vars.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_vars.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_wrong_int_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_wrong_int_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_wrong_nil_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_wrong_nil_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_wrong_bool_nil.src
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_symb.src
+1c1
+< yesno
+---
+> yesno
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_symb.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_symb.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat.src
+1c1
+< yesno
+---
+> yesno
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_wrong_string_nil.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_wrong_int_string.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_wrong_string_int.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_wrong_int_bool.src
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/CONCAT/concat_wrong_nil_bool.src
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EXIT/exit_wrong_var.src
+got rc | expected rc
+57    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EXIT/exit_wrong_var.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EXIT/exit_wrong_var.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EXIT/exit_wrong_int.src
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EXIT/exit_wrong_string.src
+got rc | expected rc
+57    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EXIT/exit_wrong_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EXIT/exit_wrong_string.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EXIT/exit_int.src
+got rc | expected rc
+57    |	8
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EXIT/exit_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EXIT/exit_int.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EXIT/exit_wrong_bool.src
+got rc | expected rc
+57    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EXIT/exit_wrong_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EXIT/exit_wrong_bool.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/EXIT/exit_wrong_nil.src
+got rc | expected rc
+57    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EXIT/exit_wrong_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/EXIT/exit_wrong_nil.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_int.src
+0a1
+> *
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_int.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_int.src
+got rc | expected rc
+58    |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_int.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_int.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_wrong_bool.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_wrong_bool.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_wrong_bool.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_wrong_string.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_wrong_string.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_wrong_string.in
+[1;31mBad stdout[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_var.src
+0a1
+> E
+\ No newline at end of file
+
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_var.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_var.in
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_var.src
+got rc | expected rc
+58    |	0
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_var.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_var.in
+[1;32mPASS[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_wrong_int.src
+[1;31mBad RC[0m /home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_wrong_nil.src
+got rc | expected rc
+58    |	53
+run this test with:
+php8.3 ../interpret.php --source=/home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_wrong_nil.src --input=/home/xhanco00/IPP24/proj_2/ipp-core/testy/INT2CHAR/int2char_wrong_nil.in
+PASSED: 140
+FAILED: 223
